@@ -60,8 +60,6 @@ def validate_cc(cc_num):
         for i in range(0, len(digits), 2):
             sum += digits[i]
 
-        print(sum)
-
         return 'Valid Credit Card Number' if sum % 10 == 0 else 'Invalid Credit Card Number'
 
 
